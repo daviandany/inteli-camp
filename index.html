@@ -28,7 +28,7 @@
 <body>
     <header>
                         <!-- barra de navegaçao -->
-    <nav class="navbar navbar-expand-lg bg-light navbartoda">
+    <nav class="navbar navbar-expand-lg bg-light navbartoda fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="Aprendendo com o.png" alt="Logo" height="70px">
@@ -43,7 +43,7 @@
             <a class="nav-link" target="_blank" href="https://www.mit.edu/about/" >Parceria MIT</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="#sobre">Sobre</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="#footer">FAQ</a>
@@ -66,26 +66,40 @@
     </header>
     <main>
         
-        <div class="container text-center" data-aos="fade-down" id="principal">
+        <div class="container text-center mb-5" data-aos="fade-down" id="principal">
             
-            <h1>Aprimore suas formas de ensino gratuitamente fazendo um curso com a ajuda de IA</h1>
+            <h1>Aprimore suas formas de ensino gratuitamente com Inteligência Artificial</h1>
             
             <img id="googlegif" src="output-onlinegiftools.gif" alt="logo do google" height="250"> 
             
         
             
             <a href="https://edu.google.com/intl/ALL_br/for-educators/training-courses/?modal_active=none">
-                <br>
-            <button type="button" class="btn btn-outline-primary">Comece agora</button>
+            </a>
+              <br>
+            <button type="button" class="btn btn-primary">Comece agora o curso de IA para Educadores</button>
         </div>
-    </a>
     
-    <div class="container text-center mt-5" data-aos="fade-down" id="cta">
+    <div class="container mt-5 mb-5"  data-aos="fade-down" id="sobre">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+          <img src="globo-bonito.png" alt="Globo bonito">
+        </div>
+
+        <div class="col-md-6">
+          <h2 class="text-center" id="subtitulo">Título chamativo</h2>
+          <p>Explicação do porquê é importante fazer o curso, e falar da participação do MIT no desenvolvimento</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container text-center mt-5 mb-5" data-aos="fade-down" id="cta">
         <div class="row">
             <div class="col-6 align-content-center">
                 
               <div class="container text text-center">
-              <h1 id="porque">Por que fazer?</h1>
+              <h2 id="subtitulo">Por que fazer?</h2>
               </div>
               
               <!-- acordeao -->
@@ -141,10 +155,10 @@
     </main>
 
     <footer id="footer">
-      <div class="container text-center mt-5">
+      <div class="container text-center mb-5 mt-5"  data-aos="fade-down">
         <div class="row align-items-center">
           <div class="line col-md-5"></div>
-          <h1 class="col-md-2">FAQ</h1>
+          <h2 class="col-md-2 p-4" id="subtitulo">FAQ</h2>
           <div class="line col-md-5"></div>
         </div>
         

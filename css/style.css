@@ -5,7 +5,7 @@
 
 
 #principal {
-    padding-top: 50px;
+    padding-top: 160px;
     
 }
 
@@ -28,8 +28,12 @@ margin-top: 10px;
  }
 
 
- #porque{
+ #subtitulo{
     margin-bottom: 35px;
+ }
+
+ #footer #subtitulo {
+    margin-bottom: 0;
  }
 
  #aula{
@@ -44,7 +48,7 @@ margin-left: 55px;
  }
 
 
- #porque{
+ #subtitulo{
    font-family: montserrat;
 
    
@@ -53,7 +57,7 @@ margin-left: 55px;
  .line {
     height: 1px;
     background-color: black;
-    margin-top: 20px;
+
  }
 
 /* dark-mode */
