@@ -46,7 +46,9 @@ margin-left: 55px;
 
    
  }
- #aula{
-    
- }
 
+ .line {
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+ }
