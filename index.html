@@ -28,58 +28,78 @@
 <body>
     <header>
                         <!-- barra de navegaçao -->
-        <nav class="navbar navbar-expand-lg fixed-top bg-body-primary navbar-dark">
-            <a class="navbar-brand" href="index.html">
-                <img  src="Aprendendo com o.png" alt="Logo" id="google" height="60px">
-            </a>
-            <img id="mit" src="image-removebg-preview (1).png" alt="mit"> 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.mit.edu/about/">Parceria MIT </a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://grow.google/intl/pt/courses-and-tools/?category=career&type=online-courses">Mais cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <button class="btn btn-primary ms-3 px-3" href="#">Inscreva-se
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg bg-light navbartoda fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="Aprendendo com o.png" alt="Logo" height="70px">
+        <img id="mit" src="image-removebg-preview (1).png" alt="mit" height="10px"> 
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.mit.edu/about/" >Parceria MIT</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#footer">FAQ</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://grow.google/intl/pt/courses-and-tools/?category=career&type=online-courses">Mais cursos</a>
+          </li>
+          <li class="nav-item">
+              <button type="button" class="btn btn-dark" onclick="toggleDarkMode()" data-bs-toggle="button">Dark Mode</button>
+          </li>
+          <li class="nav-item">
+             <a target="_blank" href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?prompt=select_account&scope=email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&state=hdnCApWqrgqDGCI6pMDgLHGdmMyub0H3Lxh1lPLPlLt154Cn&redirect_uri=https%3A%2F%2Fskillshop.exceedlms.com%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&client_id=602224180431-4n16sppuiom7hqkn78hsnre3bt0pohd6.apps.googleusercontent.com&disallow_webview=true&service=lso&o2v=1&ddm=0&flowName=GeneralOAuthFlow">
+              <button class="btn btn-primary ms-3">Inscreva-se</button>
+              </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     </header>
     <main>
         
-        <div class="container text-center" data-aos="fade-down" id="principal">
+        <div class="container text-center mb-5" data-aos="fade-down" id="principal">
             
-            <h1>Aprimore suas formas de ensino gratuitamente fazendo um curso com a ajuda de IA</h1>
+            <h1>Aprimore suas formas de ensino gratuitamente com Inteligência Artificial</h1>
             
             <img id="googlegif" src="output-onlinegiftools.gif" alt="logo do google" height="250"> 
             
         
             
             <a href="https://edu.google.com/intl/ALL_br/for-educators/training-courses/?modal_active=none">
-                <br>
-            <button type="button" class="btn btn-outline-primary">Comece agora</button>
+            </a>
+              <br>
+            <button type="button" class="btn btn-primary">Comece agora o curso de IA para Educadores</button>
         </div>
-    </a>
     
-    <div class="container text-center mt-5" data-aos="fade-down" id="cta">
+    <div class="container mt-5 mb-5"  data-aos="fade-down" id="sobre">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+          <img src="globo-bonito.png" alt="Globo bonito">
+        </div>
+
+        <div class="col-md-6">
+          <h2 class="text-center" id="subtitulo">Título chamativo</h2>
+          <p>Explicação do porquê é importante fazer o curso, e falar da participação do MIT no desenvolvimento</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container text-center mt-5 mb-5" data-aos="fade-down" id="cta">
         <div class="row">
             <div class="col-6 align-content-center">
                 
               <div class="container text text-center">
-              <h1 id="porque">Por que fazer?</h1>
+              <h2 id="subtitulo">Por que fazer?</h2>
               </div>
               
               <!-- acordeao -->
@@ -92,7 +112,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong> Assistência na Preparação de Aulas.</strong>  A IA pode analisar dados sobre alunos, como estilo de aprendizagem, ritmo e interesses, para sugerir atividades e conteúdos adequados. Isso permite que os professores personalizem as aulas, tornando-as mais engajadoras e eficazes.
                       </div>
                     </div>
                   </div>
@@ -104,7 +124,7 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>Criação de Materiais Pedagógicos.</strong> A IA pode gerar exercícios e tarefas sob medida para cada aluno, considerando seu nível de conhecimento e necessidades individuais. Isso promove a individualização do ensino e permite que cada aluno progrida em seu ritmo.
                       </div>
                     </div>
                   </div>
@@ -116,15 +136,14 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <strong>Assistência na Preparação de Aulas.</strong> A IA pode atuar como uma assistente pessoal para os professores, sugerindo recursos, criando atividades personalizadas e até mesmo avaliando o progresso dos alunos.
-                        Ela ajuda a economizar tempo, permitindo que os professores se concentrem no que realmente importa: ensinar
+                        <strong>Assistência na Preparação de Aulas.</strong> Ferramentas de IA podem analisar os resultados das avaliações para identificar padrões e áreas que precisam de mais atenção, auxiliando os professores a direcionarem seu ensino de forma mais eficaz.
                       </div>
                     </div>
                   </div>
                 </div>
                 </div>
             <div class="col-6">
-                <img id="aula" src="/globo-bonito.png" alt="aula">
+                <img id="aula" src="globo-bonito.png" alt="aula">
             </div>
         </div>
     </div>
@@ -135,11 +154,98 @@
 
     </main>
 
-    <footer>
+    <footer id="footer">
+      <div class="container text-center mb-5 mt-5"  data-aos="fade-down">
+        <div class="row align-items-center">
+          <div class="line col-md-5"></div>
+          <h2 class="col-md-2 p-4" id="subtitulo">FAQ</h2>
+          <div class="line col-md-5"></div>
+        </div>
+        
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                Como a IA vai mudar a maneira que trabalhamos?  
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                A IA pode lhe ajudar a oferecer um ensino personalizado, fazer a correção automática de provas e lições, além de 
+te ajudar a montar aula de uma maneira bem mais rápida, economizando seu tempo para poder fazer mais atividades.
 
-    
+              </div>
+            </div>
+            <div data-aos="zoom-in-up"></div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                Ela vai substituir meu trabalho?
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Não, pelo contrário. O objetivo desse curso é ensinar os educadores a fazer a utilização de inteligência artificial, para ocorrer um trabalho em conjunto entre os dois.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                A inteligência artificial rouba meus dados?
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Não, nenhum dos seus dados pessoais é armazenado pela database da A.I e o Google mantém total segurança sobre eles na nuvem.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                O uso dela atrapalha o desenvolvimento do pensamento individual de cada aluno?
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                O uso da IA pode sim atrapalhar no desenvolvimento individual de cada aluno, mas o curso tem como objetivo ensinar os educadores a implantarem a inteligência artificial dentro da sala de aula de maneira correta, para que isso não ocorra.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                O curso é gratuito? Qual a duração dele?
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Sim, o nosso curso é totalmente livre de qualquer custo e tem duração de 2 horas, sendo completamente otimizado 
+para que o educador aplique a metodologia o mais rápido possível.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                O curso possui algum certificado após a finalização do mesmo?
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Após a finalização do curso, oferecemos um certificado de término para que mostre sua qualificação para o uso da
+A.I na sala de aula.
+</div>
+</div>
+</div>
+<img src="logodogoogle.png" alt="google" id="imagegoogle">
+        </div>
+    </div>
 
-    </footer>
+      </div>
+      </footer>
     </body>
 
 <!-- Script init animacao -->
@@ -155,5 +261,10 @@
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
     
     });
+    function toggleDarkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+
 </script>
 </html>

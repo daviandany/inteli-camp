@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar {
     overflow: hidden;
     background-color: #fff;
@@ -72,3 +73,93 @@ margin-left: 25px;
  #porque{
    font-family: montserrat;
  }
+=======
+.navbar:hover {
+    box-shadow: 1px 1px #939393;margin: 
+    
+}
+
+
+#principal {
+    padding-top: 160px;
+    
+}
+
+#principal h1 {
+    font-size: 48px;    
+}
+
+#cta{ 
+    font-size: 100;
+}
+    
+ #google{
+    margin-left: 10px;
+    
+ }
+
+ #mit{
+height: 70px;
+margin-top: 10px;
+ }
+
+
+ #subtitulo{
+    margin-bottom: 35px;
+ }
+
+ #footer #subtitulo {
+    margin-bottom: 0;
+ }
+
+ #aula{
+height: 400px;
+
+
+ }
+
+ #google{
+margin-left: 55px;
+
+ }
+
+
+ #subtitulo{
+   font-family: montserrat;
+
+   
+ }
+
+ .line {
+    height: 1px;
+    background-color: black;
+
+ }
+
+/* dark-mode */
+ body {
+    background-color: white;
+    color: rgb(45, 45, 45);
+  }
+  .dark-mode {
+    background-color: rgb(35, 32, 32);
+    color: white;
+  }
+
+  .nav-link {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  .navbartoda{
+
+
+
+
+  }
+
+  #imagegoogle {
+    width: 10%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+>>>>>>> f76189a6b9e4d00f5edc7871dd2f562744b02df0
