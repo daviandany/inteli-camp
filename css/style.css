@@ -1,10 +1,12 @@
 .navbar:hover {
-    box-shadow: 1px 1px #939393;
+    box-shadow: 1px 1px #939393;margin: 
+    
 }
 
 
 #principal {
     padding-top: 50px;
+    
 }
 
 #principal h1 {
@@ -32,6 +34,7 @@ margin-top: 10px;
 
  #aula{
 height: 400px;
+
 
  }
 
@@ -61,4 +64,21 @@ margin-left: 55px;
   .dark-mode {
     background-color: rgb(35, 32, 32);
     color: white;
+  }
+
+  .nav-link {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  .navbartoda{
+
+
+!important;
+
+  }
+
+  #imagegoogle {
+    width: 10%;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
