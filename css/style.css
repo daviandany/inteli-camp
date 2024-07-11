@@ -52,3 +52,13 @@ margin-left: 55px;
     background-color: black;
     margin-top: 20px;
  }
+
+/* dark-mode */
+ body {
+    background-color: white;
+    color: rgb(45, 45, 45);
+  }
+  .dark-mode {
+    background-color: rgb(35, 32, 32);
+    color: white;
+  }

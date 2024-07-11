@@ -52,6 +52,9 @@
               <a class="nav-link" target="_blank" href="https://grow.google/intl/pt/courses-and-tools/?category=career&type=online-courses">Mais cursos</a>
           </li>
           <li class="nav-item">
+              <button type="button" class="btn btn-dark" onclick="toggleDarkMode()" data-bs-toggle="button">Dark Mode</button>
+          </li>
+          <li class="nav-item">
               <button class="btn btn-primary ms-3">Inscreva-se</button>
           </li>
         </ul>
@@ -241,5 +244,10 @@ A.I na sala de aula.
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
     
     });
+    function toggleDarkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+
 </script>
 </html>
