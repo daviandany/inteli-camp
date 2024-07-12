@@ -1,8 +1,5 @@
 .navbar:hover {
-    box-shadow: 1px 1px #939393;margin: 
-    
-}
-
+    box-shadow: 1px 1px #939393;margin;}
 
 #principal {
     padding-top: 160px;
@@ -78,8 +75,7 @@ margin-left: 55px;
 
 
 !important;
-
-  }
+}
 
   #imagegoogle {
     width: 10%;
